@@ -12,7 +12,7 @@ from userbot.system import command
 from platform import uname
 
 # ================= CONSTANT =================
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "100101110"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "David"
 # ============================================
 
 @command(pattern="^.help ?(.*)")
@@ -43,7 +43,7 @@ async def cmd_list(event):
             else:
                 await event.edit(input_str + " plugin non valido!")
         else:
-            help_string = f"""Userbot Helper.. di {DEFAULTUSER}\nGruppo assistenza @IOIIIOIIIOI\n
+            help_string = f"""Userbot Helper.. di {DEFAULTUSER}\n\n
 `Helper per i comandi`\nPremi .help plugin_name se non è qui."""
             results = await bot.inline_query(  # pylint:disable=E0602
                 tgbotusername,
