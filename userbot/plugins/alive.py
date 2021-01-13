@@ -29,6 +29,6 @@ async def amireallyalive(alive):
                      f"**> Firmware:** {versions.__version__}\n"
                      f"**> Licenza:** {versions.__license__}\n"
                      f"**> Copyright:** {versions.__copyright__}\n"
-                     "**> [UPDATE](https://t.me/IOIIOIIIOIIOI)\n**"
+                     "**> By David\n**"
                      f"**> 👤 USER**: {DEFAULTUSER}\n\n"
                      "▬▬▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬▬▬")
